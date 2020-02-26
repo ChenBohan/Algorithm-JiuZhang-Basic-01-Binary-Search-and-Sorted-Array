@@ -9,7 +9,7 @@
       - 工程上避免使用递归，可能出现stack overflow
   - while循环（推荐）
 
-- [First Position of - Target](https://www.lintcode.com/problem/first-position-of-target/description)
+- [First Position of Target](https://www.lintcode.com/problem/first-position-of-target/description)
   - 二分查找找左边界
   - Keypoints
     - while循环：`while (start + 1 < end)`
@@ -32,4 +32,8 @@
     - 找左右边界的区别：当`nums[mid] == target`时，是往左边找还是往右边找
   
 - [Search Insert Position](https://www.lintcode.com/problem/search-insert-position/description)
+  - 可转换为用二分法查找第一个大于等于targer的元素位置，即first position of...
+    - Keypoints
+      - 若找不到第一个大于等于的元素，说明target大于数组中所有元素
+  
         
