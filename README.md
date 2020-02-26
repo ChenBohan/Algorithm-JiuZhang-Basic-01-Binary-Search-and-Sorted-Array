@@ -18,9 +18,9 @@
     - 取中间数：`mid = start + (end - start) / 2;`
       - 与`mid = (start + end) / 2`相比，不容易在数字过大时造成int溢出
     - 判断mid和target的关系：`A[mid] ? target`
-      - ==: `end = mid;`
-      - <: `start = mid;`
-      - >: `end = mid;`
+      - 等于: `end = mid;`
+      - 大于: `start = mid;`
+      - 小于: `end = mid;`
     - 判断start、end与target的关系
       - A[start] == target: `return start;`
       - A[end] == target: `return end;`
