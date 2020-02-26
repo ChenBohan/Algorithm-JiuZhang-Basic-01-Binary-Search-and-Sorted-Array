@@ -9,7 +9,8 @@
       - 工程上避免使用递归，可能出现stack overflow
   - while循环（推荐）
 
-- [First Position of Target](https://www.lintcode.com/problem/first-position-of-target/description)
+- [First Position of - Target](https://www.lintcode.com/problem/first-position-of-target/description)
+  - 二分查找找左边界
   - Keypoints
     - while循环：`while (start + 1 < end)`
       - start + 1 >= end 时终止，即start与end相邻或相等
@@ -24,5 +25,10 @@
     - 判断start、end与target的关系
       - A[start] == target: `return start;`
       - A[end] == target: `return end;`
-          
+            
+- [Search for a Range](https://www.lintcode.com/problem/search-for-a-range/)
+  - 二分查找找左右边界
+  - Keypoints
+    - 找左右边界的区别：当`nums[mid] == target`时，是往左边找还是往右边找
+  
         
