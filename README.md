@@ -31,4 +31,5 @@
   - Keypoints
     - 找左右边界的区别：当`nums[mid] == target`时，是往左边找还是往右边找
   
+- [Search Insert Position](https://www.lintcode.com/problem/search-insert-position/description)
         
