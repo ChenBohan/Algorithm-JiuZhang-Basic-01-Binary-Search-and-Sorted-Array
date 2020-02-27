@@ -8,6 +8,9 @@
     - 递归
         - 工程上避免使用递归，可能出现stack overflow
     - while循环（推荐）
+  - 适用问题
+    - 是不是要找first position或者last position
+    - 复杂度需要从O(n)降到O(logn)
 
 - [First Position of Target](https://www.lintcode.com/problem/first-position-of-target/description)
   - 二分查找找左边界
@@ -46,3 +49,5 @@
       - 当左下角==target,计数器count+1，可以忽略所在该列和改行的所有值，位置向斜上方移动，即从【X,Y】->【X-1,Y+1】
  
 - [first bad version](https://www.lintcode.com/problem/first-bad-version/description)
+
+- [find peak element](https://www.lintcode.com/problem/find-peak-element/description)
