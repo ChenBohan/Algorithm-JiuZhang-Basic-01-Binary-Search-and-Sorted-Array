@@ -45,3 +45,4 @@
       - 当左下角>target,可以忽略所在该行的所有值，位置向上+1，即从【X,Y】->【X-1,Y】
       - 当左下角==target,计数器count+1，可以忽略所在该列和改行的所有值，位置向斜上方移动，即从【X,Y】->【X-1,Y+1】
  
+- [first bad version](https://www.lintcode.com/problem/first-bad-version/description)
