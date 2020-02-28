@@ -62,6 +62,7 @@
   - 如果 > 最后一个数:在左边, 否则在右边
 
 - [search in rotated sorted array ii](https://www.lintcode.com/problem/search-in-rotated-sorted-array-ii/description)
+- [find minimum in rotated sorted array ii](https://www.lintcode.com/problem/find-minimum-in-rotated-sorted-array-ii/description)
   - 只需要举出能够最坏情况的数据是 [1,1,1,1... 1] 里有一个0即可。在这种情况下是无法使用二分法的，复杂度是O(n)，因此写个for循环最坏也是O(n)，那就写个for循环就好了，这个题的考点是你想不想得到最坏情况。
 
 - [find minimum in rotated sorted array](https://www.lintcode.com/problem/find-minimum-in-rotated-sorted-array/description)
