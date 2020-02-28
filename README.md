@@ -60,3 +60,6 @@
     - 如果在同一边，按照正常的二分搜索方向
     - 如果在翻转的不同边，反转二分搜索的方向
   - 如果 > 最后一个数:在左边, 否则在右边
+
+- [search in rotated sorted array ii](https://www.lintcode.com/problem/search-in-rotated-sorted-array-ii/description)
+  - 由于出现重复元素，故不能使用二分法(比如整个数组都是0，复杂度为O(n))所以暴力比较即可。
