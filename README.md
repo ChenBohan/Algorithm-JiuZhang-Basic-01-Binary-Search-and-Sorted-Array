@@ -54,3 +54,9 @@
   - 二分法
     - 每次取中间元素，如果大于左右，则这就是peek。
     - 否则取大的一边，两个都大，可以随便取一边。最终会找到peek。
+
+- [search in rotated sorted array](https://www.lintcode.com/problem/search-in-rotated-sorted-array/description)
+  - 通过判断mid和target是否处于翻转的同一边，来决定搜索的方向
+    - 如果在同一边，按照正常的二分搜索方向
+    - 如果在翻转的不同边，反转二分搜索的方向
+  - 如果 > 最后一个数:在左边, 否则在右边
