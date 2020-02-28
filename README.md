@@ -64,3 +64,8 @@
 - [search in rotated sorted array ii](https://www.lintcode.com/problem/search-in-rotated-sorted-array-ii/description)
   - 只需要举出能够最坏情况的数据是 [1,1,1,1... 1] 里有一个0即可。在这种情况下是无法使用二分法的，复杂度是O(n)，因此写个for循环最坏也是O(n)，那就写个for循环就好了，这个题的考点是你想不想得到最坏情况。
 
+- [find minimum in rotated sorted array](https://www.lintcode.com/problem/find-minimum-in-rotated-sorted-array/description)
+  - 第一步先看最后一个数是否大于第一个数，如果大于说明这个数组并没有翻转。直接返回第一个数（已经排好序)
+  - 第二步做二分，通过和第一个数比较来决定向左或者向右移动。
+    - 如果大于或者等于第一个数说明在翻转的左边，那么向右移动
+    - 同理如果小于则在右边，向左移动
