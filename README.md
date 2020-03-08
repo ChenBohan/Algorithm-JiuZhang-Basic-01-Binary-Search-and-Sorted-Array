@@ -1,5 +1,5 @@
-# Leetcode-01-JiuZhang-Algorithm-Basic-Course
-九章算法基础班
+# Algorithm-JiuZhang-Basic-01-Binary-Search-and-Sorted-Array
+九章算法基础班 - 二分查找
 
 ## Chapter 2
 
